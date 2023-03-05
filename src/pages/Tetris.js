@@ -1,18 +1,19 @@
 import React from "react"
-import Grid from '../components/Tetris/Grid.js'
+import TetSquare from '../components/Tetris/TetSquare.js'
+import TetBoard from "../components/Tetris/TetBoard.js"
 
 import '../styles/tetris.css'
 
 function Tetris(props){
 
-
     return(
         <div className="tetPage">
         <h1>Tetris</h1>
 
-        <div>
-            <Grid color = '1'/>
+        <div className="tetBoard">
+            <TetBoard/>
         </div>
+      
       
         </div>
     )

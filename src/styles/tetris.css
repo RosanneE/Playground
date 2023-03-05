@@ -1,3 +1,14 @@
+* {
+    /* calculates size of grid boxes **including** border width instead of adding border after */
+    box-sizing: border-box;
+  }
+  .tetGridBoard {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), var(--tile-size));
+    grid-gap: 0;
+    align-self: flex-start;
+  }
+
 /* .App-header {
     background-color: #282c34;
     min-height: 10vh;
@@ -80,4 +91,7 @@
 .grid-square {
     width: var(--tile-size);
     height: var(--tile-size);
+    border: #ffff;
+    border-style: solid;
   }
+
