@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import TicTac from './pages/TicTac';
+import Tetris from './pages/Tetris'
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route  path="/about" element={<About />} />
           <Route  path="/TicTac" element={<TicTac />} />
+          <Route  path="/Tetris" element={<Tetris />} />
         </Routes>
       <Footer/>
 
