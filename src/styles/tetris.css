@@ -95,3 +95,9 @@
     border-style: solid;
   }
 
+/* Next Block */
+.nextGrid {
+    display: grid;
+    grid-template-columns: repeat(4, var(--tile-size));
+    align-self: flex-start;
+  }
