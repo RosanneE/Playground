@@ -1,0 +1,12 @@
+
+export default function TetState(props){
+    return(
+       <div className="tetState">
+        <div className="tetStateInfo"> 
+            <h3>Score: {props.store} </h3>
+            <h3>Level: {props.level} </h3>
+        </div>
+        
+       </div>
+    )
+}
